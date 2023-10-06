@@ -17,9 +17,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  display:flex; 
-  flex-direction:column; 
-  justify-content:center;
+  border: 1px solid white;
 }
 
 h1,
@@ -156,6 +154,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   font-family: Fira Sans Condensed, sans-serif;
+  margin-top: -8px;
 }
 
 .search-form__fieldset-title {
@@ -183,7 +182,7 @@ ol {
   width: fit-content;
   display: inline-block;
   border: 1px solid transparent;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 .search-form__textfield{
