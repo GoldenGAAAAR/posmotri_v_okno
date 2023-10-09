@@ -47,12 +47,12 @@ ol {
 .content {
   display: flex;
   align-items: flex-end;
-  width: 1150px;
-  min-height: 534px;
+  width: 1140px;
   gap: 30px;
 }
 
 .result {
+  margin-top: 77px;
   display: flex;
   flex-direction: column;
   width: 711px;
@@ -68,9 +68,11 @@ ol {
 
 .content__list {
   position: relative;
+  margin-top: 235px;
   max-height: 298px;
   display: block;
   overflow-y: scroll;
+  position: absolute;
 }
 
 .content__list li:not(:first-child){
@@ -78,8 +80,7 @@ ol {
 }
 
 .content__details {
-  margin-top: 5px;
-  max-height: 100%;
+  width: 399px;
   display: flex;
   flex-direction: column;
   align-self: flex-start;
@@ -188,7 +189,7 @@ ol {
   font-weight: 400;
   color: white;
   appearance: none; 
-  cursor: pointer;
+  margin-top: 1px;
 }
 
 .search-form__checkbox-list {
@@ -222,7 +223,6 @@ ol {
 
 .more-button {
   width: 100%;
-  margin-bottom: 2px;
 }
 
 /* Текстовое поле */
